@@ -17,16 +17,17 @@ body{
     display: flex;
     flex-direction: row;
     width: 100vw;
-    height: 94vh;
+    height: 100vh;
     
 }
 
 .left{
-    background-image: url(./images/odin-8838292_640.jpg);
+    background-image: url(./images/piermanuele-sberni-lcgM_NT1huI-unsplash.jpg);
      width: 40vw;
      background-repeat: no-repeat;
      background-size: cover;
-    
+    color: white;
+    font-family: Norse-Boldm, sans-serif;
 
     
 
@@ -39,6 +40,23 @@ body{
 
 .right{
    display: flex;
-    justify-content: center;
-    width: 50vw;
-}    
+    flex-direction: column;
+    background-color: bisque;
+    width: 60vw;
+    
+}  
+.first{
+    height: 33vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}  
+.second{
+    background-color: white;
+    height: 30vh;
+}
+.third{
+    height: 30vh;
+}
