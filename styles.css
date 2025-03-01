@@ -4,8 +4,26 @@
 }
 h1 {
     font-family: Norse-Bold, sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+h2{
+    font-family: Norse-Bold, sans-serif;
+}
+
+h3{
+    font-family: Norse-Bold, sans-serif;
 }
 body{
+    font-family: Norse-Bold, sans-serif;
     margin: 0;
     padding:0;
 
@@ -28,35 +46,45 @@ body{
      background-size: cover;
     color: white;
     font-family: Norse-Boldm, sans-serif;
-
-    
-
-
 }
-
-
-
-
-
 .right{
    display: flex;
     flex-direction: column;
-    background-color: bisque;
-    width: 60vw;
-    
-}  
+    background-color: rgb(208, 197, 197);
+    width: 60vw;   
+} 
+
 .first{
-    height: 33vh;
+    height: 25vh;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    margin-left: 5%;
-    margin-bottom: 5%;
+    margin-left: 5px;
+    margin-bottom: 5px;    
 }  
 .second{
     background-color: white;
-    height: 30vh;
+    height: 33vh;
+ }  
+
+.form-main-divs{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    width: 80%;
+    justify-content: space-between;
 }
+
+.form-div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+
+
+
 .third{
-    height: 30vh;
+    height: 33vh;   
+
 }
