@@ -26,6 +26,7 @@ body{
     font-family: Norse-Bold, sans-serif;
     margin: 0;
     padding:0;
+    pointer-events: all;
 
     
 
@@ -36,6 +37,7 @@ body{
     flex-direction: row;
     width: 100vw;
     height: 100vh;
+    pointer-events: all;
     
 }
 
@@ -73,12 +75,19 @@ body{
     margin-left: 50px;
     width: 80%;
     justify-content: space-between;
+    pointer-events: all;
 }
 
-.form-div{
+.form-divs{
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
+}
+.input{
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 12px;
+    height: 25px;
 }
 
 
