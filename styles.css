@@ -90,6 +90,42 @@ body{
     height: 25px;
 }
 
+  label{
+    display: block;
+    margin-top: 1em;
+  }  
+  input:focus{
+    background-color: white;
+    border: none;
+    outline: 1px solid blue;
+    border-radius: 2px;
+  }
+  select:focus{
+    background-color: white;
+    border: none;
+    outline: 1px solid blue;
+    border-radius: 2px;
+  }
+
+
+label{
+    display: block;
+    margin-top: 1em;
+}
+
+
+input:invalid{
+    background-color: white;
+    border: none;
+    outline: 1px solid red;
+    border-radius: 2px;
+}
+
+p{
+    color: red;
+    font-size: 12px;
+}
+
 
 
 
