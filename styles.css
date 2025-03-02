@@ -3,7 +3,9 @@
     src: url(../fonts/Norse-Bold.otf);
 }
 h1 {
-    font-family: Norse-Bold, sans-serif;
+    font-family: 'Norse' ,sans-serif;
+    font-size: 75px;
+    color: rgb(200, 186, 186);
     justify-content: center;
     align-items: center;
     display: flex;
@@ -43,6 +45,7 @@ body{
 
 .left{
     background-image: url(./images/piermanuele-sberni-lcgM_NT1huI-unsplash.jpg);
+    height: 100%;
      width: 40vw;
      background-repeat: no-repeat;
      background-size: cover;
@@ -150,5 +153,40 @@ body{
 }
 
 .p-footer{
-    font-size: 12px;
+     margin-top: 58vh;
+    font-size: 10px;
+    text-align: center;
+    align-items: flex-end;
+    justify-content: flex-end;
+  
+
+}
+
+.forImage{
+    width: 35vw;
+    display: flex;
+    align-items:  flex-end;
+    justify-content: center;
+    height: 40vh;  
+    
+}
+
+.forfooter{
+    height: 100vh;
+    margin-top: -100vh;
+    display:  flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 35vh;
+
+}
+
+.semi-transparent{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: Norse-Bold, sans-serif ;
+
 }
