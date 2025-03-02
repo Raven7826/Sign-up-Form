@@ -26,7 +26,7 @@ body{
     font-family: Norse-Bold, sans-serif;
     margin: 0;
     padding:0;
-    pointer-events: all;
+    
 
     
 
@@ -37,7 +37,7 @@ body{
     flex-direction: row;
     width: 100vw;
     height: 100vh;
-    pointer-events: all;
+
     
 }
 
@@ -65,71 +65,90 @@ body{
     margin-bottom: 5px;    
 }  
 .second{
-    background-color: white;
+    background-color: rgb(245, 250, 249);
+    height: 25vh;
     height: 33vh;
+    border: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 4px rgb(58, 53, 53);
  }  
 
 .form-main-divs{
-    display: flex;
+   display: flex;
     flex-direction: row;
     margin-left: 50px;
-    width: 80%;
+    width: 60%;
     justify-content: space-between;
-    pointer-events: all;
+
+    
 }
 
-.form-divs{
+.form-div{
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
+
+    
+   
 }
 .input{
     width: 200px;
-    border: 1px solid black;
-    border-radius: 12px;
+    border: 5px solid black;
+    border-radius: 25px;
     height: 25px;
 }
 
-  label{
-    display: block;
-    margin-top: 1em;
-  }  
-  input:focus{
-    background-color: white;
-    border: none;
-    outline: 1px solid blue;
-    border-radius: 2px;
-  }
-  select:focus{
-    background-color: white;
-    border: none;
-    outline: 1px solid blue;
-    border-radius: 2px;
-  }
+ input:focus{
+    border: 1px solid blue;
+ }
+ input:invalid{
+    border: 1px solid red;
+ } 
 
-
-label{
-    display: block;
-    margin-top: 1em;
-}
-
-
-input:invalid{
-    background-color: white;
-    border: none;
-    outline: 1px solid red;
-    border-radius: 2px;
-}
-
-p{
+ label{
+    font-size: 12px;
+    color:rgba(21, 21, 13, 0.551)
+ }
+ #error{
     color: red;
     font-size: 12px;
+    margin: 1px;
+   
+ }
+ .btn-green{
+    background-color: rgb(172, 229, 172);
+    color: rgb(5, 32, 65);
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 175px;
+    height: 35px;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+     box-shadow: 2px 4px rgb(58, 53, 53);
+    
+ }
+ 
+.third{
+    margin-left: 30px;
+    margin-top: 25px;  
+
+}
+.hyperlink{
+    margin-left: 50px;
+    margin-top:  20px; 
+}
+.login{
+    color: rgb(5, 32, 65);
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
 }
 
+.a-footer{
+    color: white;
+}
 
-
-
-.third{
-    height: 33vh;   
-
+.p-footer{
+    font-size: 12px;
 }
