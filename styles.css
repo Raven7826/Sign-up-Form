@@ -3,7 +3,7 @@
     src: url(../fonts/Norse-Bold.otf);
 }
 h1 {
-    font-family: 'Norse' ,sans-serif;
+      font-family: 'Noto Sans Runic', sans-serif;
     font-size: 75px;
     color: rgb(200, 186, 186);
     justify-content: center;
